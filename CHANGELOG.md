@@ -1,3 +1,15 @@
+# v1.0.3 (Thu Jun 24 2021)
+
+#### ⚠️ Pushed to `master`
+
+- enable automatic releases ([@lovrokalan](https://github.com/lovrokalan))
+
+#### Authors: 1
+
+- [@lovrokalan](https://github.com/lovrokalan)
+
+---
+
 # v1.0.2 (Thu Jun 24 2021)
 
 #### ⚠️ Pushed to `master`
