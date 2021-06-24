@@ -81,7 +81,7 @@
     "cross-env": "^7.0.3",
     "prettier": "^2.3.1"
   },
-  "main": "index.js",
+  "main": "dist/index.js",
   "license": "MIT",
   "name": "cnj-example-design-system-test",
   "version": "1.0.2",
