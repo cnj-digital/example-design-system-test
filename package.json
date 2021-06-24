@@ -20,7 +20,7 @@
     "test": "react-scripts test",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public",
-    "release": "auto shipit --base-branch=main"
+    "release": "auto shipit --base-branch=master"
   },
   "eslintConfig": {
     "extends": [
@@ -82,5 +82,10 @@
     "prettier": "^2.3.1"
   },
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "name": "cnj-example-design-system-test",
+  "version": "1.0.0",
+  "repository": "https://github.com/cnj-digital/example-design-system-test.git",
+  "author": "Lovro Kalan <lovro.kalan1@gmail.com>",
+  "private": false
 }

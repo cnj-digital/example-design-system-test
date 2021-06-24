@@ -1,6 +1,4 @@
 
-test
-
 <h1 align="center">
   Use this boilerplate when creating a new Storybook based design system for React applications
 </h1>
