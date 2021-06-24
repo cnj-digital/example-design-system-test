@@ -1,3 +1,16 @@
+# v1.0.5 (Thu Jun 24 2021)
+
+#### ⚠️ Pushed to `master`
+
+- Merge branch 'master' of https://github.com/cnj-digital/example-design-system-test ([@lovrokalan](https://github.com/lovrokalan))
+- add classnames dependancy ([@lovrokalan](https://github.com/lovrokalan))
+
+#### Authors: 1
+
+- [@lovrokalan](https://github.com/lovrokalan)
+
+---
+
 # v1.0.4 (Thu Jun 24 2021)
 
 #### ⚠️ Pushed to `master`
