@@ -21,7 +21,8 @@
     "test": "react-scripts test",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public",
-    "release": "auto shipit --base-branch=master"
+    "release": "auto shipit --base-branch=master",
+    "chromatic": "npx chromatic --project-token=63f937341dba"
   },
   "eslintConfig": {
     "extends": [
@@ -79,6 +80,7 @@
     "@storybook/preset-create-react-app": "^3.1.7",
     "@storybook/react": "^6.2.9",
     "auto": "^10.29.3",
+    "chromatic": "^5.9.2",
     "cross-env": "^7.0.3",
     "prettier": "^2.3.1"
   },
