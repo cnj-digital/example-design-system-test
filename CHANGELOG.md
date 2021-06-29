@@ -1,3 +1,16 @@
+# v1.0.8 (Tue Jun 29 2021)
+
+#### ⚠️ Pushed to `master`
+
+- Merge branch 'master' of https://github.com/cnj-digital/example-design-system-test ([@lovrokalan](https://github.com/lovrokalan))
+- Added argeta tailwind preset, added secondary button component ([@lovrokalan](https://github.com/lovrokalan))
+
+#### Authors: 1
+
+- [@lovrokalan](https://github.com/lovrokalan)
+
+---
+
 # v1.0.7 (Thu Jun 24 2021)
 
 #### ⚠️ Pushed to `master`
