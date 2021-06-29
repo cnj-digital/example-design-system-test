@@ -11,8 +11,14 @@ module.exports = {
         "footer-gradient":
           "radial-gradient(circle at top center,#353535 0,#000 100%)",
       }),
+      boxShadow: {
+        productCard: "0px 8px 16px rgba(0, 0, 0, 0.1)",
+      },
       colors: {
-        black: "#222222",
+        black: {
+          300: "#4A4A4A",
+          DEFAULT: "#222222",
+        },
         orange: {
           DEFAULT: "#d75f00",
           100: "#d70000",

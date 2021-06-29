@@ -1,7 +1,7 @@
 import PrimaryButton from "./PrimaryButton";
 
 export default {
-  title: "Primary Button",
+  title: "Buttons/Primary Button",
   component: PrimaryButton,
   argTypes: { onClick: { action: "clicked" } },
 };

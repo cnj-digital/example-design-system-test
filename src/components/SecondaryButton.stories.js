@@ -1,7 +1,7 @@
 import SecondaryButton from "./SecondaryButton";
 
 export default {
-  title: "Secondary Button",
+  title: "Buttons/Secondary Button",
   component: SecondaryButton,
   argTypes: { onClick: { action: "clicked" } },
 };
