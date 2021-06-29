@@ -1,3 +1,18 @@
+# v1.0.12 (Tue Jun 29 2021)
+
+#### ⚠️ Pushed to `master`
+
+- added babel config to allow support for the "experimental" syntax 'jsx' ([@lovrokalan](https://github.com/lovrokalan))
+- fix exports in main index.js ([@lovrokalan](https://github.com/lovrokalan))
+- Merge branch 'master' of https://github.com/cnj-digital/example-design-system-test ([@lovrokalan](https://github.com/lovrokalan))
+- try exporting with new package.json from inside of components folder ([@lovrokalan](https://github.com/lovrokalan))
+
+#### Authors: 1
+
+- [@lovrokalan](https://github.com/lovrokalan)
+
+---
+
 # v1.0.11 (Tue Jun 29 2021)
 
 #### ⚠️ Pushed to `master`
