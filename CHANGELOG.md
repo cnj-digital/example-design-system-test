@@ -1,3 +1,16 @@
+# v1.0.10 (Tue Jun 29 2021)
+
+#### ⚠️ Pushed to `master`
+
+- Merge branch 'master' of https://github.com/cnj-digital/example-design-system-test ([@lovrokalan](https://github.com/lovrokalan))
+- Fix primary button import in test ([@lovrokalan](https://github.com/lovrokalan))
+
+#### Authors: 1
+
+- [@lovrokalan](https://github.com/lovrokalan)
+
+---
+
 # v1.0.9 (Tue Jun 29 2021)
 
 #### ⚠️ Pushed to `master`
