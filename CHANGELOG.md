@@ -1,3 +1,15 @@
+# v1.0.11 (Tue Jun 29 2021)
+
+#### ⚠️ Pushed to `master`
+
+- export all new components from main npm package file ([@lovrokalan](https://github.com/lovrokalan))
+
+#### Authors: 1
+
+- [@lovrokalan](https://github.com/lovrokalan)
+
+---
+
 # v1.0.10 (Tue Jun 29 2021)
 
 #### ⚠️ Pushed to `master`
