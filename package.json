@@ -92,6 +92,9 @@
   "repository": "https://github.com/cnj-digital/example-design-system-test.git",
   "author": "Lovro Kalan <lovro.kalan1@gmail.com>",
   "private": false,
+  "files": [
+    "dist"
+  ],
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   }

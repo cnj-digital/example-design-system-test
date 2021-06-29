@@ -1,0 +1,5 @@
+{
+  "name": "cnj-example-design-system-test/components",
+  "private": true,
+  "main": "../dist/index.js"
+}
