@@ -88,7 +88,7 @@
   "main": "dist/index.js",
   "license": "MIT",
   "name": "cnj-example-design-system-test",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "repository": "https://github.com/cnj-digital/example-design-system-test.git",
   "author": "Lovro Kalan <lovro.kalan1@gmail.com>",
   "private": false,
