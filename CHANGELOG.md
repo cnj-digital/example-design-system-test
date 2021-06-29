@@ -1,3 +1,16 @@
+# v1.0.9 (Tue Jun 29 2021)
+
+#### ⚠️ Pushed to `master`
+
+- Merge branch 'master' of https://github.com/cnj-digital/example-design-system-test ([@lovrokalan](https://github.com/lovrokalan))
+- Added productCard component, some minor fixes on other components ([@lovrokalan](https://github.com/lovrokalan))
+
+#### Authors: 1
+
+- [@lovrokalan](https://github.com/lovrokalan)
+
+---
+
 # v1.0.8 (Tue Jun 29 2021)
 
 #### ⚠️ Pushed to `master`
