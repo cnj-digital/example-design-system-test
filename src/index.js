@@ -1,6 +1,6 @@
 export * as styles from "../src/styles/base.css";
 
-export { PrimaryButton } from "./components/PrimaryButton";
-export { SecondaryButton } from "./components/SecondaryButton";
-export { TextWithImage } from "./components/TextWithImage";
-export { ProductCard } from "./components/ProductCard";
+export * from "./components/PrimaryButton";
+export * from "./components/SecondaryButton";
+export * from "./components/TextWithImage";
+export * from "./components/ProductCard";
