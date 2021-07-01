@@ -1,3 +1,15 @@
+# v1.0.13 (Thu Jul 01 2021)
+
+#### ⚠️ Pushed to `master`
+
+- enabled typescript, converted SecondaryButton to TS ([@lovrokalan](https://github.com/lovrokalan))
+
+#### Authors: 1
+
+- [@lovrokalan](https://github.com/lovrokalan)
+
+---
+
 # v1.0.12 (Tue Jun 29 2021)
 
 #### ⚠️ Pushed to `master`
