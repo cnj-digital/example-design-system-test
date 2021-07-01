@@ -1,5 +1,5 @@
 import TextWithImage from "./TextWithImage";
-import SecondaryButton from "./SecondaryButton.tsx";
+import SecondaryButton from "../SecondaryButton/SecondaryButton.tsx";
 
 export default {
   title: "Text with image",

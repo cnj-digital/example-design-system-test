@@ -1,6 +1,6 @@
 import React from "react";
 
-import SecondaryButton from "./SecondaryButton.tsx";
+import SecondaryButton from "../SecondaryButton/SecondaryButton.tsx";
 
 function ProductCard({
   productImg,
