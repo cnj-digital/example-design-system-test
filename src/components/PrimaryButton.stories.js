@@ -1,4 +1,4 @@
-import PrimaryButton from "./PrimaryButton";
+import PrimaryButton from "./PrimaryButton.tsx";
 
 export default {
   title: "Buttons/Primary Button",
