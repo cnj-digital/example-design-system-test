@@ -14,6 +14,10 @@ module.exports = {
       boxShadow: {
         productCard: "0px 8px 16px rgba(0, 0, 0, 0.1)",
       },
+      lineHeight: {
+        12: "2.625rem",
+        16: "3.75rem",
+      },
       colors: {
         black: {
           300: "#4A4A4A",

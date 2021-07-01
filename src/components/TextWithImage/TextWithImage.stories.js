@@ -1,4 +1,4 @@
-import TextWithImage from "./TextWithImage";
+import TextWithImage from "./TextWithImage.tsx";
 import SecondaryButton from "../SecondaryButton/SecondaryButton.tsx";
 
 export default {
@@ -14,35 +14,27 @@ const Template = (args) => (
 
 export const TextLeft = Template.bind({});
 TextLeft.args = {
-  title: "Text positioned to the left",
-  imgSrc: "https://i.insider.com/5de5784979d757159d0b6838?width=700",
-  imgAlt: "img alt text",
-  children: (
-    <div>
-      <div className="mb-6 font-bold text-5xl">Zaveza uporabnikom</div>
-      <div className="text-lg font-light mb-10">
-        Želimo ponuditi najboljše možne izdelke z visoko kakovostnimi
-        sestavinami, brez aditivov, v varnem pakiranju in za vse okuse.
-      </div>
-      <SecondaryButton title="Želim izvedeti več"></SecondaryButton>
-    </div>
-  ),
+  img: {
+    src: "https://i.insider.com/5de5784979d757159d0b6838?width=700",
+    alt: "img alt text",
+  },
+  title: "Zaveza uporabnikom",
+  text: "Želimo ponuditi najboljše možne izdelke z visoko kakovostnimi sestavinami, brez aditivov, v varnem pakiranju in za vse okuse.",
+  cta: {
+    title: "Rezerviraj svoj termin",
+  },
 };
 
 export const TextRight = Template.bind({});
-TextRight.args = {
-  title: "Text positioned to the left",
-  textLeft: false,
-  imgSrc: "https://i.insider.com/5de5784979d757159d0b6838?width=700",
-  imgAlt: "img alt text",
-  children: (
-    <div>
-      <div className="mb-6 font-bold text-5xl">Zaveza uporabnikom</div>
-      <div className="text-lg font-light mb-10">
-        Želimo ponuditi najboljše možne izdelke z visoko kakovostnimi
-        sestavinami, brez aditivov, v varnem pakiranju in za vse okuse.
-      </div>
-      <SecondaryButton title="Želim izvedeti več"></SecondaryButton>
-    </div>
-  ),
+TextLeft.args = {
+  textPosition: "right",
+  img: {
+    src: "https://i.insider.com/5de5784979d757159d0b6838?width=700",
+    alt: "img alt text",
+  },
+  title: "Zaveza uporabnikom",
+  text: "Želimo ponuditi najboljše možne izdelke z visoko kakovostnimi sestavinami, brez aditivov, v varnem pakiranju in za vse okuse.",
+  cta: {
+    title: "Rezerviraj svoj termin",
+  },
 };
