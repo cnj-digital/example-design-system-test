@@ -1,3 +1,18 @@
+# v1.0.15 (Thu Jul 01 2021)
+
+#### ⚠️ Pushed to `master`
+
+- transformed textWithImage component to TS ([@lovrokalan](https://github.com/lovrokalan))
+- Merge branch 'master' of https://github.com/cnj-digital/example-design-system-test ([@lovrokalan](https://github.com/lovrokalan))
+- converted productCard component to TS, coomented out its story until nextjs issues are resolved ([@lovrokalan](https://github.com/lovrokalan))
+- component files are moved to separate folders ([@lovrokalan](https://github.com/lovrokalan))
+
+#### Authors: 1
+
+- [@lovrokalan](https://github.com/lovrokalan)
+
+---
+
 # v1.0.14 (Thu Jul 01 2021)
 
 #### ⚠️ Pushed to `master`
