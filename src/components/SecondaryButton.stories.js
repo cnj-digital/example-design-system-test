@@ -1,4 +1,4 @@
-import SecondaryButton from "./SecondaryButton";
+import SecondaryButton from "./SecondaryButton.tsx";
 
 export default {
   title: "Buttons/Secondary Button",

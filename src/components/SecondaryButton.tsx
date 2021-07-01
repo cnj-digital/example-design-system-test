@@ -1,11 +1,18 @@
 import React from "react";
 
+type Props = {
+  title: string,
+  as?: 'button' | 'a';
+  onClick?: () => {};
+  href?: string;
+};
+
 export default function SecondaryButton({
   title,
   as = "button",
   href,
   onClick,
-}) {
+}: Props) {
   const Tag = as;
   return (
     <Tag

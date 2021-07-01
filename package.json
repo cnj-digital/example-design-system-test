@@ -4,6 +4,7 @@
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "@types/react": "^17.0.12",
     "autoprefixer": "^10.2.6",
     "classnames": "^2.3.1",
     "polished": "^4.1.1",
@@ -14,6 +15,7 @@
     "react-scripts": "4.0.3",
     "styled-components": "^5.2.1",
     "tailwindcss": "^2.2.2",
+    "typescript": "^4.3.5",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
@@ -92,9 +94,6 @@
   "repository": "https://github.com/cnj-digital/example-design-system-test.git",
   "author": "Lovro Kalan <lovro.kalan1@gmail.com>",
   "private": false,
-  "files": [
-    "dist"
-  ],
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   }
