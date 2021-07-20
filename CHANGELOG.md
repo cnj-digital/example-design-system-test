@@ -1,3 +1,15 @@
+# v1.0.16 (Tue Jul 20 2021)
+
+#### ⚠️ Pushed to `master`
+
+- Add Figma links ([@martink635](https://github.com/martink635))
+
+#### Authors: 1
+
+- Martin ([@martink635](https://github.com/martink635))
+
+---
+
 # v1.0.15 (Thu Jul 01 2021)
 
 #### ⚠️ Pushed to `master`
