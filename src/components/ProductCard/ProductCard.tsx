@@ -1,6 +1,6 @@
 import React from "react";
 
-import SecondaryButton from "../SecondaryButton/SecondaryButton.tsx";
+import ArrowLink from "../ArrowLink/ArrowLink";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -21,23 +21,23 @@ type Props = {
 function ProductCard({ img, title, description, cta, onClick, href }: Props) {
   return (
     <Link href={href}>
-      <a className="group cursor-pointer mt-10 w-64" onClick={onClick}>
-        <div className="transform group-hover:-translate-y-10 transition-transform duration-200 ease-in-out">
+      <a className="w-64 mt-10 cursor-pointer group" onClick={onClick}>
+        <div className="transition-transform duration-200 ease-in-out transform group-hover:-translate-y-10">
           <Image
             src={img.src}
             alt={img.alt}
             width={192}
             height={192}
-            className="mx-auto w-48 mb-6"
+            className="w-48 mx-auto mb-6"
           />
-          <div className="text-center group-hover:bg-white group-hover:shadow-productCard transition-all duration-150 ease-in-out w-64 h-64 rounded-full mx-auto flex justify-center items-center -mt-24">
+          <div className="flex items-center justify-center w-64 h-64 mx-auto -mt-24 text-center transition-all duration-150 ease-in-out rounded-full group-hover:bg-white group-hover:shadow-productCard">
             <div>
-              <div className="font-bold text-xl tetx-black mb-1">{title}</div>
-              <div className="text-black-300 text-xs mb-4 opacity-80">
+              <div className="mb-1 text-xl font-bold tetx-black">{title}</div>
+              <div className="mb-4 text-xs text-black-300 opacity-80">
                 {description}
               </div>
-              <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-150">
-                <SecondaryButton title={cta} />
+              <div className="transition-opacity duration-150 opacity-0 group-hover:opacity-100">
+                <ArrowLink>{cta}</ArrowLink>
               </div>
             </div>
           </div>

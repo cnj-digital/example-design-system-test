@@ -1,7 +1,7 @@
 import React from "react";
 import cx from "classnames";
 
-import SecondaryButton from "../SecondaryButton/SecondaryButton.tsx";
+import ArrowLink from "../ArrowLink/ArrowLink.tsx";
 
 interface Img {
   src: string;
@@ -36,29 +36,28 @@ function TextWithRoundImage({ textPosition = "left", img, title, text, cta }) {
         )}
       >
         {title && (
-          <div className="mb-8 md:mb-6 font-bold text-3xl md:text-5xl leading-12 md:leading-16">
+          <div className="mb-8 text-3xl font-bold md:mb-6 md:text-5xl leading-12 md:leading-16">
             {title}
           </div>
         )}
         <div className="w-full mb-4 md:hidden">
-          <img src={img.src} className="rounded-xl w-full" alt={img.alt} />
+          <img src={img.src} className="w-full rounded-xl" alt={img.alt} />
         </div>
         {text && (
-          <p className="text-base md:text-lg font-light mb-6 md:mb-10">
+          <p className="mb-6 text-base font-light md:text-lg md:mb-10">
             {text}
           </p>
         )}
         {cta && (
-          <SecondaryButton
-            title={cta.title}
+          <ArrowLink
             as={cta.as}
             onClick={cta.onClick}
             href={cta.href}
-          ></SecondaryButton>
+          >{cta.title}</ArrowLink>
         )}
       </div>
-      <div className="w-full lg:w-3/5 hidden md:block">
-        <img src={img.src} className="rounded-xl w-full" alt={img.alt} />
+      <div className="hidden w-full lg:w-3/5 md:block">
+        <img src={img.src} className="w-full rounded-xl" alt={img.alt} />
       </div>
     </div>
   );
